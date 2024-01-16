@@ -1,0 +1,14 @@
+Minimum RTO for a single AZ outage: 35 seconds
+Deploy highly available, durable MySQL to multiple AZ, it gain automatic failovers in typically under 35 seconds.
+
+Minimum RTO for a single region outage: 20 mins
+Need to promate the RDS replica to primary and swtich the application to point to new DB endpoint
+
+
+Minimum RPO for a single AZ outage: around 10 mins
+Usually minutes. Automation can minimize delays.	
+
+Minimum RPO for a single region outage: 5 seconds
+Typically under 1 second
+
+

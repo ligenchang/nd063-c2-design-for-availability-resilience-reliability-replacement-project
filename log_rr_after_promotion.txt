@@ -1,0 +1,7 @@
+MySQL [udacity]> INSERT INTO Persons (PersonID, LastName, FirstName, Address, city) values (4, "tak", "mural", "singapore alex street", "singapore");
+Query OK, 1 row affected (0.010 sec)
+
+2024-01-16T09:11:52.598225Z 12 Query INSERT INTO Persons (PersonID, LastName, FirstName, Address, city) values (4, "tak", "mural", "singapore alex street", "singapore")
+
+
+2024-01-16T09:12:02.102993Z 12 Query select * from Persons

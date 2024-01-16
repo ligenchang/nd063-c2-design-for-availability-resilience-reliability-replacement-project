@@ -1,0 +1,9 @@
+2024-01-16T07:14:02.392524Z 13 Query INSERT INTO Persons (PersonID, LastName, FirstName, Address, city) values (3, "tak", "mural", "singapore alex street", "singapore")
+
+2024-01-16T07:02:50.824431Z 16 Connect rdsadmin@localhost on using Socket
+
+
+2024-01-16T07:17:40.989257Z 13 Query CREATE TABLE Persons1 ( PersonID int, LastName varchar(255), FirstName varchar(255), Address varchar(255), City varchar(255) )
+
+
+2024-01-16T07:18:31.797440Z 13 Query select * from Persons

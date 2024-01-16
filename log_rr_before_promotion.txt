@@ -1,0 +1,11 @@
+2024-01-16T08:42:33.298582Z 24 Connect rdsadmin@localhost on using Socket
+
+2024-01-16T08:38:18.271462Z 19 Query select * from Persons
+
+2024-01-16T08:40:40.211754Z 19 Query INSERT INTO Persons (PersonID, LastName, FirstName, Address, city) values (4, "tak", "mural", "singapore alex street", "singapore")
+
+
+MySQL [udacity]> INSERT INTO Persons (PersonID, LastName, FirstName, Address, city) values (4, "tak", "mural", "singapore alex street", "singapore")
+    -> ;
+ERROR 1290 (HY000): The MySQL server is running with the --read-only option so it cannot execute this statement
+
